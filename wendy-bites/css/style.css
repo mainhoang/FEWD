@@ -6,13 +6,53 @@ body {
 }
 
 
+* {
+  box-sizing: border-box;
+}
+
+
 h1, h2, h3, h4, h5, h6, p, a, li, blockquote {
   padding-top: 20px;
-  margin: 0;
   font-family: "helvetica", sans-serif;
 }
+
 
 blockquote {
   font-style: italic;
   font-size: 24px;
+}
+
+
+#container {
+width: 60%;
+height: auto;
+position: relative;
+left: 20%;
+}
+
+
+header {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  text-align: center;
+  background: #CDEFDC;
+}
+
+header img {
+  border-radius: 50%;
+}
+
+
+section div {
+  text-align: center;
+}
+
+
+.button {
+  display: block;
+  background: #CDEFDC;
+  padding: 8px;
+  text-decoration: none;
+  color: #020202
+  font-weight: bold;
 }
