@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  color: #121212;
+  font-size: 18px;
+  line-height: normal;
+  font-family: 'Nixie One', cursive;
+  background-color: #FFFFFF;
+}
+
+
+header {
+  text-align: center;
+  text-decoration: none;
+  padding-top: 50px;
+  padding-bottom: 40px;
+}
+
+#container {
+  width: 60%;
+  height: auto;
+  position: relative;
+  left: 20%;
+  background-color: #FFFFFF;
+}
+
+
+.centeredimg {
+  text-align:center;
+  margin-top:0px;
+  margin-bottom:0px;
+  padding:0px;
+}
+
+
+.gianttex {
+  font-size: 60px;
+  font-weight: bolder;
+  color: #f30000;
+  padding-top: 30px;
+}
+
+
+.bigtex {
+  font-size: 40px;
+  color: #121212;
+  line-height: normal;
+  padding-top: 20px;
+}
+
+
+footer {
+  font-size: 10px;
+}

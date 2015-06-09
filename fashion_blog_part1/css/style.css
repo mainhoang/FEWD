@@ -1,0 +1,29 @@
+body {
+  color: #000000;
+  background: #FFFFFF);
+  font-size: 16px;
+  line-height: 24px;
+  font-family: "lato";
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+#container {
+width: 60%;
+height: auto;
+position: relative;
+}
+
+
+.link {
+  color: #f30000
+}
+
+
+.link-1 {
+  color: #F4F4F4;
+}
