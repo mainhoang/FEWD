@@ -16,14 +16,27 @@ body {
 width: 60%;
 height: auto;
 position: relative;
+left: 20%;
+}
+
+
+h1 {
+  font-size: 40px;
+}
+
+
+h2 {
+  font-size: 26px;
 }
 
 
 .link {
-  color: #f30000
+  color: #f30000;
+  text-decoration: none;
 }
 
 
 .link-1 {
-  color: #F4F4F4;
+  color: #cccccc;
+  text-decoration: none;
 }
