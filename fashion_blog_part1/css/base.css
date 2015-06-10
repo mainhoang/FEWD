@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+
+body {
+  color: #000000;
+  font-size: 16px;
+  line-height: 1.8;
+  font-family: "lato", sans-serif;
+}
+
+
+#container {
+width: 90%;
+height: auto;
+position: relative;
+left: 5%
+}
+
+
+h1 {
+  font-size: 3.6em;
+}
+
+
+h2 {
+  font-size: 1.6em;
+}
+
+
+h3 {
+  font-size: 1.5em;
+}
+
+
+h4 {
+  font-size: 1.3em;
+}
+
+
+h5 {
+  font-size: 1.0em;
+}
+
+
+h6 {
+  font-size: 0.6em;
+}
+
+
+p {
+  line-height: 1.3em;
+  padding-bottom: 20px;
+}
