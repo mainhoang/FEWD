@@ -6,7 +6,6 @@ header {
   border-bottom: 1px solid #DCDCDC;
 }
 
-
 section {
   position: relative;
   float: left;
@@ -17,17 +16,14 @@ section {
   padding-right: 40px;
 }
 
-
 ul {
   padding-left: 20px;
 }
-
 
 li {
   list-style-type: circle;
   padding-bottom: 5px;
 }
-
 
 footer {
   text-align: center;
@@ -38,7 +34,6 @@ footer {
   padding-top: 50px;
 }
 
-
 .centeredimg {
   text-align:center;
   margin-top:0px;
@@ -46,19 +41,25 @@ footer {
   padding:0px;
 }
 
-
 .aside {
   width: 50%;
   position:relative;
   float: right;
 }
 
-
 .about-me {
   padding-top: 15px;
 }
 
-
+.spacing{
+  position: relative;
+  float: left;
+  clear: left;
+  width: 50%;
+  padding-top: 30px;
+  padding-left: 40px;
+  padding-right: 50px;
+}
 .link {
   text-decoration: none;
   color: #000000;
