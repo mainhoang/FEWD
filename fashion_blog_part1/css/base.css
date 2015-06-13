@@ -4,10 +4,11 @@
 
 
 body {
-  color: #000000;
-  font-size: 16px;
+  color: #444444;
+  font-size: 18px;
   line-height: 1.8;
   font-family: "lato", sans-serif;
+  font-weight: normal;
 }
 
 
@@ -20,32 +21,52 @@ left: 5%
 
 
 h1 {
-  font-size: 3.6em;
+  font-size: 105px;
+  color: #dddddd;
+  float: left;
+  padding-right: 10px;
+  line-height: 1.2;
 }
 
 
 h2 {
-  font-size: 1.6em;
+  font-size: 60px;
+  color: #969696;
+  padding-top: 90px;
+  padding-bottom: 90px;
+  background-color: #cccccc;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
 }
 
 
 h3 {
-  font-size: 1.5em;
+  font-size: 55px;
+
+
 }
 
 
 h4 {
-  font-size: 1.3em;
+  font-size: 35px;
+  padding-bottom: 30px;
+  line-height: 1;
 }
 
 
 h5 {
-  font-size: 1.0em;
+  font-size: 28px;
+  position: relative;
+  float: right;
+  width: 30%;
 }
 
 
 h6 {
-  font-size: 0.6em;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: right;
 }
 
 

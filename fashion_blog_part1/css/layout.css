@@ -1,33 +1,104 @@
 header {
   position: relative;
   padding-top: 40px;
+  width: 100%;
+  padding-bottom: 75px;
+}
+
+
+header h3 {
+  float: left;
+  width: 35%;
+}
+
+
+header h5 {
+  position: absolute;
+  left: 300px;
+  top: 75px;
 }
 
 
 aside {
   position: relative;
-  width: 20%;
+  width: 29%;
   float: right;
+  padding-top: 120px;
 }
 
 
 article {
   position: relative;
-  padding: 40px;
-  width: 80%;
-  float: right;
+  width: 67%;
+  float: left;
+  padding-top: 40px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid #cccccc;
 }
 
+nav {
+  position: relative;
+  clear:both;
+}
+
+section p {
+  color: #969696;
+}
+
+footer p{
+  float: left;
+  clear: left;
+}
+
+p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  line-height: 1.5;
+}
+
+.ad {
+  border-bottom: 1px solid #cccccc;
+  border-top: 1px solid #cccccc;
+}
+
+
+ul{
+  color: inherit;
+  padding-left: 40px;
+}
+
+li {
+  color: #da1414;
+  list-style: disc;
+}
+
+
+footer {
+  position: relative;
+  padding-top: 10px;
+  clear: both;
+  text-align: left;
+}
+
+.dates {
+  color: #cccccc;
+}
 
 .preview {
   background: url(../fashion_blog_part2.png);
   background-repeat: no-repeat;
 }
 
+.titles {
+  text-align: left;
+  color: #969696;
+}
+
 
 .link {
-  color: #f30000;
+  color: #da1414;
   text-decoration: none;
+  font-weight: bolder;
 }
 
 
@@ -37,7 +108,7 @@ article {
 }
 
 
-.button {
+.buttontop {
   display: block;
   background: #000000;
   padding: 8px;
@@ -45,8 +116,40 @@ article {
   text-align: center;
   border-right: 1px solid #ffffff;
   color: #ffffff;
-  font-weight: bold;
+  font-size: 23px;
   width: 16.66%;
+  position: relative;
+  float: left;
+  clear: right;
+}
+
+
+.buttonbottom {
+  display: block;
+  background: #ffffff;
+  text-decoration: none;
+  text-align: center;
+  line-height: 1;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-right: 1px solid #cccccc;
+  color: #da1414;
+  font-size: 18px;
+  position: relative;
+  float: left;
+  clear: right;
+}
+
+.lastbutton {
+  display: block;
+  background: #ffffff;
+  text-decoration: none;
+  text-align: center;
+  line-height: 1;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #da1414;
+  font-size: 18px;
   position: relative;
   float: left;
   clear: right;
