@@ -1,21 +1,8 @@
 header {
   position: relative;
-  padding-top: 40px;
+  padding-top: 65px;
   width: 100%;
-  padding-bottom: 75px;
-}
-
-
-header h3 {
-  float: left;
-  width: 35%;
-}
-
-
-header h5 {
-  position: absolute;
-  left: 300px;
-  top: 75px;
+  padding-bottom: 65px;
 }
 
 
@@ -23,7 +10,7 @@ aside {
   position: relative;
   width: 29%;
   float: right;
-  padding-top: 120px;
+  padding-top: 105px;
 }
 
 
@@ -31,8 +18,8 @@ article {
   position: relative;
   width: 67%;
   float: left;
-  padding-top: 40px;
-  padding-bottom: 40px;
+  padding-top: 63px;
+  padding-bottom: 25px;
   border-bottom: 1px solid #cccccc;
 }
 
@@ -41,18 +28,28 @@ nav {
   clear:both;
 }
 
+section {
+  padding-bottom: 25px;
+  padding-top: 25px;
+}
+
 section p {
   color: #969696;
+  padding-top: 25px;
 }
+
+
 
 footer p{
   float: left;
   clear: left;
+  padding-top: 30px;
+  color: #cccccc;
 }
 
 p {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 15px;
+  padding-bottom: 25px;
   line-height: 1.5;
 }
 
@@ -61,21 +58,28 @@ p {
   border-top: 1px solid #cccccc;
 }
 
-
-ul{
-  color: inherit;
-  padding-left: 40px;
+span {
+  color: #da1414;
 }
 
+ul{
+  padding-left: 40px;
+  padding-top: 12px;
+  line-height: 1.58;
+}
+
+
 li {
-  color: #da1414;
+  color: #969696;
   list-style: disc;
 }
 
 
+
+
 footer {
   position: relative;
-  padding-top: 10px;
+  padding-top: 60px;
   clear: both;
   text-align: left;
 }
@@ -98,12 +102,17 @@ footer {
 .link {
   color: #da1414;
   text-decoration: none;
-  font-weight: bolder;
 }
 
 
 .link-1 {
   color: #cccccc;
+  text-decoration: none;
+}
+
+
+.link-2 {
+  color: #000000;
   text-decoration: none;
 }
 

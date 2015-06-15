@@ -9,6 +9,7 @@ body {
   line-height: 1.8;
   font-family: "lato", sans-serif;
   font-weight: normal;
+  letter-spacing: -0.008em;
 }
 
 
@@ -25,41 +26,50 @@ h1 {
   color: #dddddd;
   float: left;
   padding-right: 10px;
-  line-height: 1.2;
+  line-height: 1.1;
 }
 
 
 h2 {
   font-size: 60px;
   color: #969696;
-  padding-top: 90px;
-  padding-bottom: 90px;
+  padding-top: 71px;
+  padding-bottom: 71px;
   background-color: #cccccc;
   text-align: center;
-  margin-top: 25px;
-  margin-bottom: 25px;
+  margin-top: 27px;
+  margin-bottom: 27px;
+  font-family: "arvo", serif;
+  font-weight: bolder;
 }
 
 
 h3 {
   font-size: 55px;
-
+  line-height: 1;
+  float: left;
+  width: 35%;
+  padding-bottom: 15px;
+  letter-spacing: -0.01em;
 
 }
 
 
 h4 {
   font-size: 35px;
-  padding-bottom: 30px;
+  padding-bottom: 20px;
   line-height: 1;
+  letter-spacing: 0.01em;
 }
 
 
 h5 {
   font-size: 28px;
-  position: relative;
-  float: right;
+  position: absolute;
+  left: 300px;
+  top: 78px;
   width: 30%;
+  letter-spacing: -0.01em;
 }
 
 
@@ -67,10 +77,5 @@ h6 {
   font-size: 18px;
   font-weight: bold;
   text-align: right;
-}
-
-
-p {
-  line-height: 1.3em;
-  padding-bottom: 20px;
+  font-family: "lato:900", sans-serif;
 }
