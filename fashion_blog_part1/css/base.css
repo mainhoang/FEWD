@@ -9,7 +9,7 @@ body {
   line-height: 1.8;
   font-family: "lato", sans-serif;
   font-weight: normal;
-  letter-spacing: -0.008em;
+  letter-spacing: -0.00375em;
 }
 
 
@@ -22,8 +22,8 @@ left: 5%
 
 
 h1 {
-  font-size: 105px;
   color: #dddddd;
+  font-size: 105px;
   float: left;
   padding-right: 10px;
   line-height: 1.1;
@@ -31,58 +31,59 @@ h1 {
 
 
 h2 {
-  font-size: 60px;
   color: #969696;
+  font-size: 60px;
+  font-family: "arvo", serif;
+  font-weight: bolder;
+  text-align: center;
   padding-top: 71px;
   padding-bottom: 71px;
   background-color: #cccccc;
-  text-align: center;
   margin-top: 27px;
   margin-bottom: 27px;
-  font-family: "arvo", serif;
-  font-weight: bolder;
+  margin-left: 5px;
+  margin-right: 5px;
 }
 
 
 h3 {
   font-size: 55px;
   line-height: 1;
-  float: left;
-  width: 35%;
-  padding-bottom: 15px;
   letter-spacing: -0.01em;
+  float: left;
+  padding-bottom: 15px;
 }
 
 
 h4 {
   font-size: 35px;
-  padding-bottom: 20px;
   line-height: 1;
-  letter-spacing: 0.01em;
+  letter-spacing: 0.011em;
+  padding-bottom: 20px;
 }
 
 
 h5 {
-  font-size: 28px;
   color: #969696;
+  font-size: 28px;
+  letter-spacing: -0.01em;
   position: absolute;
   left: 300px;
   top: 78px;
-  width: 30%;
-  letter-spacing: -0.01em;
 }
 
 
 h6 {
   font-size: 18px;
+  font-family: "lato:700", sans-serif;
   font-weight: bold;
   text-align: right;
-  font-family: "lato:700", sans-serif;
+  letter-spacing: -0.02em;
 }
 
 
 p {
+  line-height: 1.5;
   padding-top: 16px;
   padding-bottom: 25px;
-  line-height: 1.5;
 }
