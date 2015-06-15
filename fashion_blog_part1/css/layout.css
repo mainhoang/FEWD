@@ -10,7 +10,7 @@ aside {
   position: relative;
   width: 29%;
   float: right;
-  padding-top: 105px;
+  padding-top: 106px;
 }
 
 
@@ -19,53 +19,38 @@ article {
   width: 67%;
   float: left;
   padding-top: 63px;
-  padding-bottom: 25px;
+  padding-bottom: 24px;
   border-bottom: 1px solid #cccccc;
 }
 
-nav {
-  position: relative;
-  clear:both;
-}
 
 section {
   padding-bottom: 25px;
   padding-top: 25px;
 }
 
+
 section p {
   color: #969696;
-  padding-top: 25px;
+  padding-top: 24px;
 }
 
 
-
-footer p{
-  float: left;
-  clear: left;
-  padding-top: 30px;
-  color: #cccccc;
+nav {
+  position: relative;
+  clear:both;
 }
 
-p {
-  padding-top: 15px;
-  padding-bottom: 25px;
-  line-height: 1.5;
-}
-
-.ad {
-  border-bottom: 1px solid #cccccc;
-  border-top: 1px solid #cccccc;
-}
 
 span {
   color: #da1414;
 }
 
+
 ul{
   padding-left: 40px;
-  padding-top: 12px;
-  line-height: 1.58;
+  padding-top: 14px;
+  line-height: 1.55em;
 }
 
 
@@ -75,8 +60,6 @@ li {
 }
 
 
-
-
 footer {
   position: relative;
   padding-top: 60px;
@@ -84,18 +67,36 @@ footer {
   text-align: left;
 }
 
+
+footer p{
+  float: left;
+  clear: left;
+  padding-top: 30px;
+  color: #cccccc;
+}
+
+
+.ad {
+  border-bottom: 1px solid #cccccc;
+  border-top: 1px solid #cccccc;
+}
+
+
 .dates {
   color: #cccccc;
 }
+
 
 .preview {
   background: url(../fashion_blog_part2.png);
   background-repeat: no-repeat;
 }
 
+
 .titles {
   text-align: left;
   color: #969696;
+  letter-spacing: -0.045em;
 }
 
 
@@ -148,6 +149,7 @@ footer {
   float: left;
   clear: right;
 }
+
 
 .lastbutton {
   display: block;
