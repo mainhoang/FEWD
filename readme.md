@@ -1,1 +1,1 @@
-You can find my resume in the folder titled "Resume".
+The Fashion Blog assignment can be found in the folder titled fashion_blogpart1.
