@@ -18,6 +18,7 @@ Element.prototype.Slider = function(){
       // create two divs for buttons
       leftBtn = document.createElement('div'),
       rightBtn = document.createElement('div');
+      console.dir(slides);
 
   // Create buttons for sliding the Slider left and right
 

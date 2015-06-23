@@ -1,0 +1,35 @@
+.nav {
+  width: 20%;
+  height: 100%;
+  z-index: 0;
+  position: fixed;
+  background: #b9b9b9;
+  font-size: 20px;
+  color: #000000;
+}
+
+.nav ul {
+  list-style-type: none;
+  position: relative;
+}
+
+.nav li {
+  padding: 20px;
+  border-bottom: 1px solid #ffffff;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+
+.hamburger {
+  width: 40px;
+  height: 40px;
+  background: url('../../img/hamburger.svg');
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  z-index: 2;
+}
