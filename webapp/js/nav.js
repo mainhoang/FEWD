@@ -2,36 +2,36 @@ Element.prototype.Navigation = function(){
 
   var navigation = this;
   var container = document.getElementById('container');
-  var position = 0;
-  var width = window.innerWidth;
   var navIcon = document.createElement('div');
 
 
-  this.createButtons = function(){
-
-
-    navIcon.classList.add('hamburger');
-    container.insertBefore(navIcon,document.getElementById('slider'));
-
-    navIcon.addEventListener('mousedown', function(){
-      if(position === 0){
-        position = (width * 0.2);
-        container.style.marginLeft = position + 'px';
-      }else{
-        position = 0;
-        container.style.marginLeft = position;
-        }
-
-
-    });
-
-
+  this.toggleNav = function(){
+    if(container.style.left === "0px"){
+      container.style.left = width * 0.2);
+    } else {
+      container.style.left = "0px";
+    }
 
   };
 
+
+  this.createButton = function(){
+
+
+    navIcon.classList.add('hamburger');
+    navIcon.addEventListener('mousedown',navigation.toogleNav);
+    container.insertBefore(navIcon,document.getElementById('slider'));
+
+
+  });
+
+
+
+
+
   this.init = function(){
 
-    navigation.createButtons();
+    this.createButton();
 
 
   };

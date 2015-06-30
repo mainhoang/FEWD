@@ -1,8 +1,9 @@
-.nav {
+nav {
   width: 20%;
   height: 100%;
   z-index: 0;
-  position: fixed;
+  position: absolute;
+  left: 0;
   background: #2b2b2b;
   font-size: 20px;
   color: #b2b2b2;
@@ -15,7 +16,7 @@
 
 .nav li {
   padding: 20px;
-  border-bottom: 1px solid #b2b2b2;
+  border-bottom: 1px solid #666666;
 }
 
 .nav-link {
@@ -25,11 +26,13 @@
 
 
 .hamburger {
-  width: 40px;
-  height: 40px;
+  width: 44px;
+  height: 44px;
   background: url('../../img/hamburger.svg');
+  background-size: 32px 32px;
+  background-position: 4px 4px;
   position: absolute;
-  top: 20px;
-  left: 20px;
-  z-index: 2;
+  top: 15px;
+  left: 15px;
+  z-index: 20;
 }
