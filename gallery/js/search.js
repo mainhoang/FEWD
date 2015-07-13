@@ -1,22 +1,22 @@
 Element.prototype.Search = function () {
 
-  var search = this;
   var gallery = document.getElementById('gallery');
-  var searchBar = document.getElementById('search');
+  var search = this;
+  var input = this.children[0];
 
-  this.deletePlaceholder = function(){
-    var input = document.getElementById('searchfield');
-    input.addEventListener('click',function(){
-      input.removeAttribute('placeholder');
+  this.init = function(){
+
+    input.addEventListener('focus', function(){
+      this.value = '';
     });
 
-  };
+    input.addEventListener('keyup',function(ev){
+      if(ev.keyCode===13){
+        var query = input.value;
+        gallery.filterPhotos(query);
+      };
 
-  
-
-  this.init =function(){
-
-    this.deletePlaceholder();
+    });
 
   };
 

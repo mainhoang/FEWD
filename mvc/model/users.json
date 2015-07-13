@@ -1,0 +1,32 @@
+{
+  "users":[{
+      "name": "Mai",
+      "age": "35",
+      "occupation": "Bartender"
+    },
+    {
+      "name": "Lance",
+      "age": "35",
+      "occupation": "Personal Trainer"
+    },
+    {
+      "name": "Dani",
+      "age": "32",
+      "occupation": "Stylist"
+    },
+    {
+      "name": "Oanh",
+      "age": "30",
+      "occupation": "Designer"
+    },
+    {
+      "name": "Steve",
+      "age": "43",
+      "occupation": "Doctor"
+    },
+    {
+      "name": "Jon",
+      "age": "38",
+      "occupation": "Drummer"
+      }]
+}

@@ -4,6 +4,7 @@ var gallery = this;
 var ul = gallery.children[0];
 var photos = {};
 var container = document.getElementById('container');
+this.allTheTags = [];
 
 this.singlePhoto = function(ev){
 
@@ -30,15 +31,40 @@ this.singlePhoto = function(ev){
     section.appendChild(closeButton);
     section.children[0].appendChild(p);
 
-};
+  };
 
+  this.filterPhotos = function(query){
+    for(var i=0; i<ul.children.length; i++){
+
+      var tags = ul.children[i].dataset.tags;//grab the tags
+      var arr = tags.split(',');
+      var matched = false;
+
+      arr.forEach(function(tag){
+        if(tag === query){//check if a tag is equal to query
+          ul.children[i].style.display = 'block';//if there is a match, show li.if not, hide li
+          matched = true;
+        };
+
+      });
+
+      if(matched === false){
+        ul.children[i].style.display ='none';
+      };
+
+      if(query === 'all'){
+        ul.children[i].style.display = 'block';
+      };
+
+    };
+
+  };
   // Define global variables
 
   this.layoutPhotos = function(){
       // add logic for each photo in here
 
       photos.forEach(function(photo,index){
-
 
         var li = document.createElement('li');
 
@@ -53,20 +79,22 @@ this.singlePhoto = function(ev){
             photo.rating+'</div></div>'+
             '</div>';
 
-            li.dataset.searchfor=photo.tags;
+            var tags = [];
+
+            photo.tags.forEach(function(tag){
+              tags.push(tag.toLowerCase());
+
+            });
+
+            gallery.allTheTags.push(tags);
+            li.dataset.tags=tags;
             li.dataset.wherewasthistaken=photo.user.country;
+
             li.addEventListener('click',gallery.singlePhoto);
-console.log(photo);
+
         ul.appendChild(li);
 
-
-
-
-
-
-
       });
-
 
   };
 
@@ -84,20 +112,20 @@ console.log(photo);
           // JSON.parse does not evaluate the attacker's scripts via xhr.responseText.
 
         }
+
       }
+
       xhr.send();
+
   };
 
   this.init = function(){
 
     this.connect();
 
-
   };
 
-
   this.init(); // do tasks on initialization.
-
 
 };
 

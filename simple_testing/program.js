@@ -1,1 +1,0 @@
-document.writeIn('Hello, world!');
