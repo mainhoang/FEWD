@@ -108,14 +108,10 @@ var checkMatch = function(){
 
   }
 
-  if(cardsArr.dataset.matched === true){
+  var li = document.getElementsByTagName('li');
 
+  while(li.dataset.matched = true){
     var heading = document.getElementsByTagName('h1');
-    console.log(movesArr);
     heading.innerHTML = 'You Win!';
-
-
   }
-
-
 }

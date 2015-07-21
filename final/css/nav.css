@@ -1,0 +1,25 @@
+#nav {
+  position: fixed;
+  width: 100%;
+  height: 7%;
+  background: #1F2421;
+  opacity: 0.9;
+  z-index: 40;
+  font-family: 'Raleway', sans-serif;
+}
+
+#nav ul{
+  margin-right: 17%;
+}
+
+#nav li {
+  position: relative;
+  float: right;
+  clear: left;
+  padding: 0% 2%;
+  margin: 1.25% 0%;
+}
+
+.home, .china, .korea, .japan, .thai {
+  border-right: 1px solid #fff;
+}
