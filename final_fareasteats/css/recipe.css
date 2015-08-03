@@ -1,0 +1,53 @@
+.recipe-wrapper {
+  width: 100%;
+  height: auto;
+  z-index: 0;
+  background: #e3e2da;
+  background-size: cover;
+}
+
+.recipe {
+  width: 90%;
+  height: auto;
+  position: relative;
+  left: 5%;
+  margin-top: 6.5%;
+  margin-bottom: 3%;
+  background: #fff;
+  color: #747474;
+  padding: 3% 5% 3% 5%;
+  animation-name: fadein;
+  animation-duration: 1s;
+}
+.recipe img {
+  width: 25%;
+  height: auto;
+  float: left;
+  padding-bottom: 2.5%;
+  padding-right: 5%;
+}
+
+.recipe h3, .recipe ul, .recipe p {
+  width: 95%;
+
+  clear:right;
+}
+
+.recipe h3 {
+  line-height: 1;
+}
+
+.recipe ul {
+  font-family: 'Raleway', sans-serif;
+  font-size:0.85em;
+  margin-top: 2%;
+  margin-left: 25%  ;
+}
+
+.recipe p {
+  font-family: 'Raleway', sans-serif;
+  font-size:0.85em;
+  margin-top: 2.5%;
+  margin-bottom: 2.5%;
+
+}

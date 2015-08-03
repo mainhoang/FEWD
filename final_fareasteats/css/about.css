@@ -1,0 +1,32 @@
+#home {
+  background: url(../img/home_bg.jpg);
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.about {
+  position: relative;
+  width: 70%;
+  height: auto;
+  top:16%;
+  left:15%;
+  background: #000;
+  opacity: 0.75;
+  animation-name: fadeintro;
+  animation-duration: 1s;
+}
+
+.about p {
+  font-family: 'Raleway', sans-serif;
+  position: relative;
+  width:70%;
+  left: 15%;
+  padding-bottom: 13%;
+}
+
+.about h2 {
+  margin: 0% 15% 0% 15%;
+  padding: 8% 0% 1% 0%;
+}

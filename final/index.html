@@ -11,42 +11,689 @@
     <link href='http://fonts.googleapis.com/css?family=Cinzel+Decorative' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
   	<link rel="stylesheet" href="css/reset.css">
 		<link rel="stylesheet" href="css/style.css">
+    <script src="js/intro.js"></script>
+    <script src="js/nav.js"></script>
 
 	</head>
 	<body>
 
+    <div id="intro-wrapper">
+        <div id="intro" class="intro">
+            <img src="img/intro2.jpg" id="intro-img">
+        </div>
+    </div>
 
-    <nav id="nav">
-      <ul>
-        <li class="viet">Vietnam</li>
-        <li class="thai">Thailand</li>
-        <li class="japan">Japan</li>
-        <li class="korea">Korea</li>
-        <li class="china">China</li>
-        <li class="home">Home</li>
+    <nav id="nav-bar">
+      <h6>FAR EAST EATS</h6>
+      <ul id="nav">
+        <li data-section="vietnam" class="nav-items">Vietnam</li>
+        <li data-section="thailand" class="nav-items">Thailand</li>
+        <li data-section="japan" class="nav-items">Japan</li>
+        <li data-section="korea" class="nav-items">Korea</li>
+        <li data-section="china" class="nav-items">China</li>
+        <li data-section="home" class="nav-items">Home</li>
       </ul>
     </nav>
 
 		<div id="container">
 
-      <section id="home">
+      <section id="home" data-index="0">
       </section>
 
-      <ul id="cuisine">
-        <h1 class="viet-bg">Vietnam</h1>
-        <li>
-          <img src="img/catfish.jpg">
-          <div class="cuisinename">Ca Kho Tho</div>
-          <div class="makeit">Make It!</div>
-        </li>
-        <li></li>
-        <li></li>
-      </ul>
 
-      <section class="recipe">
-      </section>
+
+        <section id="vietnam" class="cuisine" data-index="1">
+          <h1 class="viet-bg">Vietnam</h1>
+          <ul>
+            <li class="item">
+              <img src="img/catfish.jpg">
+              <div class="cuisinename">Ca Kho Tho</div>
+              <div class="makeit" data-div="catfish">Make It!</div>
+            </li>
+            <li class="item">
+              <img src="img/beef.jpg">
+              <div class="cuisinename">Bo Luc Lac</div>
+              <div class="makeit" data-div="beef">Make It!</div>
+            </li>
+            <li class="item">
+              <img src="img/crab.jpg">
+              <div class="cuisinename">Cua Rang Me</div>
+              <div class="makeit" data-div="crab">Make It!</div>
+            </li>
+            <li class="item">
+              <img src="img/bun.jpg">
+              <div class="cuisinename">Bun Thang</div>
+              <div class="makeit" data-div="bun">Make It!</div>
+            </li>
+          </ul>
+        </section>
+
+        <section id="thailand" class="cuisine" data-index="2">
+          <h1 class="thai-bg">Thailand</h1>
+          <ul>
+            <li class="item">
+              <img src="img/tiger.jpg">
+              <div class="cuisinename">Seua Rong Hai</div>
+              <div class="makeit" data-div="tiger">Make It!</div>
+            </li>
+            <li class="item">
+              <img src="img/rice.jpg">
+              <div class="cuisinename">Kao Pad Pu</div>
+              <div class="makeit" data-div="rice">Make It!</div>
+            </li>
+            <li class="item">
+              <img src="img/squid.jpg">
+              <div class="cuisinename">Pla Muek Yang</div>
+              <div class="makeit" data-div="squid">Make It!</div>
+            </li>
+            <li class="item">
+              <img src="img/khao.jpg">
+              <div class="cuisinename">Khao Soi</div>
+              <div class="makeit" data-div="khao">Make It!</div>
+            </li>
+          </ul>
+        </section>
+
+        <section id="japan" class="cuisine" data-index="3">
+          <h1 class="japan-bg">Japan</h1>
+          <ul>
+            <li class="item">
+              <img src="img/kama.jpg">
+              <div class="cuisinename">Hamachi Kama</div>
+              <div class="makeit" data-div="kama">Make It!</div>
+            </li>
+            <li class="item">
+              <img src="img/ramen.jpg">
+              <div class="cuisinename">Tonkatsu Ramen</div>
+              <div class="makeit" data-div="ramen">Make It!</div>
+            </li>
+            <li>
+              <img src="img/miso.jpg">
+              <div class="cuisinename">Asari Miso Somen</div>
+              <div class="makeit" data-div="miso">Make It!</div>
+            </li>
+            <li class="item">
+              <img src="img/tempura.jpg">
+              <div class="cuisinename">Crab Tempura</div>
+              <div class="makeit" data-div="tempura">Make It!</div>
+            </li>
+          </ul>
+        </section>
+
+        <section id="korea" class="cuisine" data-index="4">
+          <h1 class="korea-bg">Korea</h1>
+          <ul>
+            <li class="item">
+              <img src="img/japchae.jpg">
+              <div class="cuisinename">Japchae</div>
+              <div class="makeit" data-div="japchae">Make It!</div>
+            </li>
+            <li class="item">
+              <img src="img/bibimbap.jpg">
+              <div class="cuisinename">Bibimbap</div>
+              <div class="makeit" data-div="bibimbap">Make It!</div>
+            </li>
+            <li class="item">
+              <img src="img/galbi.jpg">
+              <div class="cuisinename">Galbi</div>
+              <div class="makeit" data-div="galbi">Make It!</div>
+            </li>
+            <li class="item">
+              <img src="img/soondubu.jpg">
+              <div class="cuisinename">Soondubu</div>
+              <div class="makeit" data-div="soondubu">Make It!</div>
+            </li>
+          </ul>
+        </section>
+
+        <section id="china" class="cuisine" data-index="5">
+          <h1 class="china-bg">China</h1>
+          <ul>
+            <li class="item">
+              <img src="img/pork.jpg">
+              <div class="cuisinename">BBQ Pork Belly</div>
+              <div class="makeit" data-div="pork">Make It!</div>
+            </li>
+            <li class="item">
+              <img src="img/hofan.jpg">
+              <div class="cuisinename">Beef Ho Fan</div>
+              <div class="makeit" data-div="hofan">Make It!</div>
+            </li>
+            <li class="item">
+              <img src="img/lobster.jpg">
+              <div class="cuisinename">Ginger Lobster</div>
+              <div class="makeit" data-div="lobster">Make It!</div>
+            </li>
+            <li class="item">
+              <img src="img/dumpling.jpg">
+              <div class="cuisinename">Shrimp Dumplings</div>
+              <div class="makeit" data-div="dumpling">Make It!</div>
+            </li>
+          </ul>
+        </section>
+
+      <div id="catfish" class="recipe-wrapper">
+          <div class="recipe">
+              <img src="img/catfish.jpg">
+              <h3>Ca Kho Tho</h3>
+              <ul>
+                  <li>1 1⁄2 lbs catfish or 1 1⁄2 lbs red snapper fillets, cut up into about 4 inch pieces</li>
+                  <li>1⁄3 cup white sugar</li>
+                  <li>1⁄4 cup fish sauce (preferably Three Crabs Brand)</li>
+                  <li>4 shallots, thinly sliced</li>
+                  <li>1 tablespoon chopped fresh chili pepper</li>
+                  <li>2 slices ginger, julienned</li>
+                  <li>ground black pepper</li>
+              </ul>
+              <p>In a heavy 2-quart saucepan, cook the sugar over low to medium heat, swirling the pan constantly, until brown and caramelized.<br>
+              Remove pan from heat and stir the fish sauce into the caramel.<br>
+              It will smoke slightly.<br>
+              Return the pan to low heat and gently boil for about couple minutes while stirring until the sugar is completely dissolved.<br>
+              Stir in the shallots, chili and ginger.<br>
+              Add the fish in the caramel sauce and sprinkle with black pepper.<br>
+              Bring to a boil.<br>
+              Reduce the heat to low and cover the pan.<br>
+              Simmer for 30-45 minutes, turning the fish occasionally and carefully.<br>
+              Serve with rice.</p>
+          </div>
+      </div>
+
+      <div id="beef" class="recipe-wrapper">
+          <div class="recipe">
+              <img src="img/beef.jpg">
+              <h3>Bo Luc Lac</h3>
+              <ul>
+                  <li>1 1⁄2 lbs catfish or 1 1⁄2 lbs red snapper fillets, cut up into about 4 inch pieces</li>
+                  <li>1⁄3 cup white sugar</li>
+                  <li>1⁄4 cup fish sauce (preferably Three Crabs Brand)</li>
+                  <li>4 shallots, thinly sliced</li>
+                  <li>1 tablespoon chopped fresh chili pepper</li>
+                  <li>2 slices ginger, julienned</li>
+                  <li>ground black pepper</li>
+              </ul>
+              <p>In a heavy 2-quart saucepan, cook the sugar over low to medium heat, swirling the pan constantly, until brown and caramelized.<br>
+              Remove pan from heat and stir the fish sauce into the caramel.<br>
+              It will smoke slightly.<br>
+              Return the pan to low heat and gently boil for about couple minutes while stirring until the sugar is completely dissolved.<br>
+              Stir in the shallots, chili and ginger.<br>
+              Add the fish in the caramel sauce and sprinkle with black pepper.<br>
+              Bring to a boil.<br>
+              Reduce the heat to low and cover the pan.<br>
+              Simmer for 30-45 minutes, turning the fish occasionally and carefully.<br>
+              Serve with rice.</p>
+          </div>
+      </div>
+
+      <div id="crab" class="recipe-wrapper">
+          <div class="recipe">
+              <img src="img/crab.jpg">
+              <h3>Cua Rang Me</h3>
+              <ul>
+                  <li>1 1⁄2 lbs catfish or 1 1⁄2 lbs red snapper fillets, cut up into about 4 inch pieces</li>
+                  <li>1⁄3 cup white sugar</li>
+                  <li>1⁄4 cup fish sauce (preferably Three Crabs Brand)</li>
+                  <li>4 shallots, thinly sliced</li>
+                  <li>1 tablespoon chopped fresh chili pepper</li>
+                  <li>2 slices ginger, julienned</li>
+                  <li>ground black pepper</li>
+              </ul>
+              <p>In a heavy 2-quart saucepan, cook the sugar over low to medium heat, swirling the pan constantly, until brown and caramelized.<br>
+              Remove pan from heat and stir the fish sauce into the caramel.<br>
+              It will smoke slightly.<br>
+              Return the pan to low heat and gently boil for about couple minutes while stirring until the sugar is completely dissolved.<br>
+              Stir in the shallots, chili and ginger.<br>
+              Add the fish in the caramel sauce and sprinkle with black pepper.<br>
+              Bring to a boil.<br>
+              Reduce the heat to low and cover the pan.<br>
+              Simmer for 30-45 minutes, turning the fish occasionally and carefully.<br>
+              Serve with rice.</p>
+          </div>
+      </div>
+
+      <div id="bun" class="recipe-wrapper">
+          <div class="recipe">
+              <img src="img/bun.jpg">
+              <h3>Bun Thang</h3>
+              <ul>
+                  <li>1 1⁄2 lbs catfish or 1 1⁄2 lbs red snapper fillets, cut up into about 4 inch pieces</li>
+                  <li>1⁄3 cup white sugar</li>
+                  <li>1⁄4 cup fish sauce (preferably Three Crabs Brand)</li>
+                  <li>4 shallots, thinly sliced</li>
+                  <li>1 tablespoon chopped fresh chili pepper</li>
+                  <li>2 slices ginger, julienned</li>
+                  <li>ground black pepper</li>
+              </ul>
+              <p>In a heavy 2-quart saucepan, cook the sugar over low to medium heat, swirling the pan constantly, until brown and caramelized.<br>
+              Remove pan from heat and stir the fish sauce into the caramel.<br>
+              It will smoke slightly.<br>
+              Return the pan to low heat and gently boil for about couple minutes while stirring until the sugar is completely dissolved.<br>
+              Stir in the shallots, chili and ginger.<br>
+              Add the fish in the caramel sauce and sprinkle with black pepper.<br>
+              Bring to a boil.<br>
+              Reduce the heat to low and cover the pan.<br>
+              Simmer for 30-45 minutes, turning the fish occasionally and carefully.<br>
+              Serve with rice.</p>
+          </div>
+      </div>
+
+      <div id="tiger" class="recipe-wrapper">
+          <div class="recipe">
+              <img src="img/tiger.jpg">
+              <h3>Seua Rong Hai</h3>
+              <ul>
+                  <li>1 1⁄2 lbs catfish or 1 1⁄2 lbs red snapper fillets, cut up into about 4 inch pieces</li>
+                  <li>1⁄3 cup white sugar</li>
+                  <li>1⁄4 cup fish sauce (preferably Three Crabs Brand)</li>
+                  <li>4 shallots, thinly sliced</li>
+                  <li>1 tablespoon chopped fresh chili pepper</li>
+                  <li>2 slices ginger, julienned</li>
+                  <li>ground black pepper</li>
+              </ul>
+              <p>In a heavy 2-quart saucepan, cook the sugar over low to medium heat, swirling the pan constantly, until brown and caramelized.<br>
+              Remove pan from heat and stir the fish sauce into the caramel.<br>
+              It will smoke slightly.<br>
+              Return the pan to low heat and gently boil for about couple minutes while stirring until the sugar is completely dissolved.<br>
+              Stir in the shallots, chili and ginger.<br>
+              Add the fish in the caramel sauce and sprinkle with black pepper.<br>
+              Bring to a boil.<br>
+              Reduce the heat to low and cover the pan.<br>
+              Simmer for 30-45 minutes, turning the fish occasionally and carefully.<br>
+              Serve with rice.</p>
+          </div>
+      </div>
+
+      <div id="rice" class="recipe-wrapper">
+          <div class="recipe">
+              <img src="img/rice.jpg">
+              <h3>Kao Pad Pu</h3>
+              <ul>
+                  <li>1 1⁄2 lbs catfish or 1 1⁄2 lbs red snapper fillets, cut up into about 4 inch pieces</li>
+                  <li>1⁄3 cup white sugar</li>
+                  <li>1⁄4 cup fish sauce (preferably Three Crabs Brand)</li>
+                  <li>4 shallots, thinly sliced</li>
+                  <li>1 tablespoon chopped fresh chili pepper</li>
+                  <li>2 slices ginger, julienned</li>
+                  <li>ground black pepper</li>
+              </ul>
+              <p>In a heavy 2-quart saucepan, cook the sugar over low to medium heat, swirling the pan constantly, until brown and caramelized.<br>
+              Remove pan from heat and stir the fish sauce into the caramel.<br>
+              It will smoke slightly.<br>
+              Return the pan to low heat and gently boil for about couple minutes while stirring until the sugar is completely dissolved.<br>
+              Stir in the shallots, chili and ginger.<br>
+              Add the fish in the caramel sauce and sprinkle with black pepper.<br>
+              Bring to a boil.<br>
+              Reduce the heat to low and cover the pan.<br>
+              Simmer for 30-45 minutes, turning the fish occasionally and carefully.<br>
+              Serve with rice.</p>
+          </div>
+      </div>
+
+      <div id="squid" class="recipe-wrapper">
+          <div class="recipe">
+              <img src="img/squid.jpg">
+              <h3>Pla Muek Yang</h3>
+              <ul>
+                  <li>1 1⁄2 lbs catfish or 1 1⁄2 lbs red snapper fillets, cut up into about 4 inch pieces</li>
+                  <li>1⁄3 cup white sugar</li>
+                  <li>1⁄4 cup fish sauce (preferably Three Crabs Brand)</li>
+                  <li>4 shallots, thinly sliced</li>
+                  <li>1 tablespoon chopped fresh chili pepper</li>
+                  <li>2 slices ginger, julienned</li>
+                  <li>ground black pepper</li>
+              </ul>
+              <p>In a heavy 2-quart saucepan, cook the sugar over low to medium heat, swirling the pan constantly, until brown and caramelized.<br>
+              Remove pan from heat and stir the fish sauce into the caramel.<br>
+              It will smoke slightly.<br>
+              Return the pan to low heat and gently boil for about couple minutes while stirring until the sugar is completely dissolved.<br>
+              Stir in the shallots, chili and ginger.<br>
+              Add the fish in the caramel sauce and sprinkle with black pepper.<br>
+              Bring to a boil.<br>
+              Reduce the heat to low and cover the pan.<br>
+              Simmer for 30-45 minutes, turning the fish occasionally and carefully.<br>
+              Serve with rice.</p>
+          </div>
+      </div>
+
+      <div id="khao" class="recipe-wrapper">
+          <div class="recipe">
+              <img src="img/khao.jpg">
+              <h3>Khao Soi</h3>
+              <ul>
+                  <li>1 1⁄2 lbs catfish or 1 1⁄2 lbs red snapper fillets, cut up into about 4 inch pieces</li>
+                  <li>1⁄3 cup white sugar</li>
+                  <li>1⁄4 cup fish sauce (preferably Three Crabs Brand)</li>
+                  <li>4 shallots, thinly sliced</li>
+                  <li>1 tablespoon chopped fresh chili pepper</li>
+                  <li>2 slices ginger, julienned</li>
+                  <li>ground black pepper</li>
+              </ul>
+              <p>In a heavy 2-quart saucepan, cook the sugar over low to medium heat, swirling the pan constantly, until brown and caramelized.<br>
+              Remove pan from heat and stir the fish sauce into the caramel.<br>
+              It will smoke slightly.<br>
+              Return the pan to low heat and gently boil for about couple minutes while stirring until the sugar is completely dissolved.<br>
+              Stir in the shallots, chili and ginger.<br>
+              Add the fish in the caramel sauce and sprinkle with black pepper.<br>
+              Bring to a boil.<br>
+              Reduce the heat to low and cover the pan.<br>
+              Simmer for 30-45 minutes, turning the fish occasionally and carefully.<br>
+              Serve with rice.</p>
+          </div>
+      </div>
+
+      <div id="kama" class="recipe-wrapper">
+          <div class="recipe">
+              <img src="img/kama.jpg">
+              <h3>Hamachi Kama</h3>
+              <ul>
+                  <li>1 1⁄2 lbs catfish or 1 1⁄2 lbs red snapper fillets, cut up into about 4 inch pieces</li>
+                  <li>1⁄3 cup white sugar</li>
+                  <li>1⁄4 cup fish sauce (preferably Three Crabs Brand)</li>
+                  <li>4 shallots, thinly sliced</li>
+                  <li>1 tablespoon chopped fresh chili pepper</li>
+                  <li>2 slices ginger, julienned</li>
+                  <li>ground black pepper</li>
+              </ul>
+              <p>In a heavy 2-quart saucepan, cook the sugar over low to medium heat, swirling the pan constantly, until brown and caramelized.<br>
+              Remove pan from heat and stir the fish sauce into the caramel.<br>
+              It will smoke slightly.<br>
+              Return the pan to low heat and gently boil for about couple minutes while stirring until the sugar is completely dissolved.<br>
+              Stir in the shallots, chili and ginger.<br>
+              Add the fish in the caramel sauce and sprinkle with black pepper.<br>
+              Bring to a boil.<br>
+              Reduce the heat to low and cover the pan.<br>
+              Simmer for 30-45 minutes, turning the fish occasionally and carefully.<br>
+              Serve with rice.</p>
+          </div>
+      </div>
+
+      <div id="ramen" class="recipe-wrapper">
+          <div class="recipe">
+              <img src="img/ramen.jpg">
+              <h3>Tonkatsu Ramen</h3>
+              <ul>
+                  <li>1 1⁄2 lbs catfish or 1 1⁄2 lbs red snapper fillets, cut up into about 4 inch pieces</li>
+                  <li>1⁄3 cup white sugar</li>
+                  <li>1⁄4 cup fish sauce (preferably Three Crabs Brand)</li>
+                  <li>4 shallots, thinly sliced</li>
+                  <li>1 tablespoon chopped fresh chili pepper</li>
+                  <li>2 slices ginger, julienned</li>
+                  <li>ground black pepper</li>
+              </ul>
+              <p>In a heavy 2-quart saucepan, cook the sugar over low to medium heat, swirling the pan constantly, until brown and caramelized.<br>
+              Remove pan from heat and stir the fish sauce into the caramel.<br>
+              It will smoke slightly.<br>
+              Return the pan to low heat and gently boil for about couple minutes while stirring until the sugar is completely dissolved.<br>
+              Stir in the shallots, chili and ginger.<br>
+              Add the fish in the caramel sauce and sprinkle with black pepper.<br>
+              Bring to a boil.<br>
+              Reduce the heat to low and cover the pan.<br>
+              Simmer for 30-45 minutes, turning the fish occasionally and carefully.<br>
+              Serve with rice.</p>
+          </div>
+      </div>
+
+      <div id="miso" class="recipe-wrapper">
+          <div class="recipe">
+              <img src="img/miso.jpg">
+              <h3>Asari Miso Somen</h3>
+              <ul>
+                  <li>1 1⁄2 lbs catfish or 1 1⁄2 lbs red snapper fillets, cut up into about 4 inch pieces</li>
+                  <li>1⁄3 cup white sugar</li>
+                  <li>1⁄4 cup fish sauce (preferably Three Crabs Brand)</li>
+                  <li>4 shallots, thinly sliced</li>
+                  <li>1 tablespoon chopped fresh chili pepper</li>
+                  <li>2 slices ginger, julienned</li>
+                  <li>ground black pepper</li>
+              </ul>
+              <p>In a heavy 2-quart saucepan, cook the sugar over low to medium heat, swirling the pan constantly, until brown and caramelized.<br>
+              Remove pan from heat and stir the fish sauce into the caramel.<br>
+              It will smoke slightly.<br>
+              Return the pan to low heat and gently boil for about couple minutes while stirring until the sugar is completely dissolved.<br>
+              Stir in the shallots, chili and ginger.<br>
+              Add the fish in the caramel sauce and sprinkle with black pepper.<br>
+              Bring to a boil.<br>
+              Reduce the heat to low and cover the pan.<br>
+              Simmer for 30-45 minutes, turning the fish occasionally and carefully.<br>
+              Serve with rice.</p>
+          </div>
+      </div>
+
+      <div id="tempura" class="recipe-wrapper">
+          <div class="recipe">
+              <img src="img/tempura.jpg">
+              <h3>Crab Tempura</h3>
+              <ul>
+                  <li>1 1⁄2 lbs catfish or 1 1⁄2 lbs red snapper fillets, cut up into about 4 inch pieces</li>
+                  <li>1⁄3 cup white sugar</li>
+                  <li>1⁄4 cup fish sauce (preferably Three Crabs Brand)</li>
+                  <li>4 shallots, thinly sliced</li>
+                  <li>1 tablespoon chopped fresh chili pepper</li>
+                  <li>2 slices ginger, julienned</li>
+                  <li>ground black pepper</li>
+              </ul>
+              <p>In a heavy 2-quart saucepan, cook the sugar over low to medium heat, swirling the pan constantly, until brown and caramelized.<br>
+              Remove pan from heat and stir the fish sauce into the caramel.<br>
+              It will smoke slightly.<br>
+              Return the pan to low heat and gently boil for about couple minutes while stirring until the sugar is completely dissolved.<br>
+              Stir in the shallots, chili and ginger.<br>
+              Add the fish in the caramel sauce and sprinkle with black pepper.<br>
+              Bring to a boil.<br>
+              Reduce the heat to low and cover the pan.<br>
+              Simmer for 30-45 minutes, turning the fish occasionally and carefully.<br>
+              Serve with rice.</p>
+          </div>
+      </div>
+
+      <div id="japchae" class="recipe-wrapper">
+          <div class="recipe">
+              <img src="img/japchae.jpg">
+              <h3>Japchae</h3>
+              <ul>
+                  <li>1 1⁄2 lbs catfish or 1 1⁄2 lbs red snapper fillets, cut up into about 4 inch pieces</li>
+                  <li>1⁄3 cup white sugar</li>
+                  <li>1⁄4 cup fish sauce (preferably Three Crabs Brand)</li>
+                  <li>4 shallots, thinly sliced</li>
+                  <li>1 tablespoon chopped fresh chili pepper</li>
+                  <li>2 slices ginger, julienned</li>
+                  <li>ground black pepper</li>
+              </ul>
+              <p>In a heavy 2-quart saucepan, cook the sugar over low to medium heat, swirling the pan constantly, until brown and caramelized.<br>
+              Remove pan from heat and stir the fish sauce into the caramel.<br>
+              It will smoke slightly.<br>
+              Return the pan to low heat and gently boil for about couple minutes while stirring until the sugar is completely dissolved.<br>
+              Stir in the shallots, chili and ginger.<br>
+              Add the fish in the caramel sauce and sprinkle with black pepper.<br>
+              Bring to a boil.<br>
+              Reduce the heat to low and cover the pan.<br>
+              Simmer for 30-45 minutes, turning the fish occasionally and carefully.<br>
+              Serve with rice.</p>
+          </div>
+      </div>
+
+      <div id="bibimbap" class="recipe-wrapper">
+          <div class="recipe">
+              <img src="img/bibimbap.jpg">
+              <h3>Bibimbap</h3>
+              <ul>
+                  <li>1 1⁄2 lbs catfish or 1 1⁄2 lbs red snapper fillets, cut up into about 4 inch pieces</li>
+                  <li>1⁄3 cup white sugar</li>
+                  <li>1⁄4 cup fish sauce (preferably Three Crabs Brand)</li>
+                  <li>4 shallots, thinly sliced</li>
+                  <li>1 tablespoon chopped fresh chili pepper</li>
+                  <li>2 slices ginger, julienned</li>
+                  <li>ground black pepper</li>
+              </ul>
+              <p>In a heavy 2-quart saucepan, cook the sugar over low to medium heat, swirling the pan constantly, until brown and caramelized.<br>
+              Remove pan from heat and stir the fish sauce into the caramel.<br>
+              It will smoke slightly.<br>
+              Return the pan to low heat and gently boil for about couple minutes while stirring until the sugar is completely dissolved.<br>
+              Stir in the shallots, chili and ginger.<br>
+              Add the fish in the caramel sauce and sprinkle with black pepper.<br>
+              Bring to a boil.<br>
+              Reduce the heat to low and cover the pan.<br>
+              Simmer for 30-45 minutes, turning the fish occasionally and carefully.<br>
+              Serve with rice.</p>
+          </div>
+      </div>
+
+      <div id="galbi" class="recipe-wrapper">
+          <div class="recipe">
+              <img src="img/galbi.jpg">
+              <h3>Galbi</h3>
+              <ul>
+                  <li>1 1⁄2 lbs catfish or 1 1⁄2 lbs red snapper fillets, cut up into about 4 inch pieces</li>
+                  <li>1⁄3 cup white sugar</li>
+                  <li>1⁄4 cup fish sauce (preferably Three Crabs Brand)</li>
+                  <li>4 shallots, thinly sliced</li>
+                  <li>1 tablespoon chopped fresh chili pepper</li>
+                  <li>2 slices ginger, julienned</li>
+                  <li>ground black pepper</li>
+              </ul>
+              <p>In a heavy 2-quart saucepan, cook the sugar over low to medium heat, swirling the pan constantly, until brown and caramelized.<br>
+              Remove pan from heat and stir the fish sauce into the caramel.<br>
+              It will smoke slightly.<br>
+              Return the pan to low heat and gently boil for about couple minutes while stirring until the sugar is completely dissolved.<br>
+              Stir in the shallots, chili and ginger.<br>
+              Add the fish in the caramel sauce and sprinkle with black pepper.<br>
+              Bring to a boil.<br>
+              Reduce the heat to low and cover the pan.<br>
+              Simmer for 30-45 minutes, turning the fish occasionally and carefully.<br>
+              Serve with rice.</p>
+          </div>
+      </div>
+
+      <div id="soondubu" class="recipe-wrapper">
+          <div class="recipe">
+              <img src="img/soondubu.jpg">
+              <h3>Soondubu</h3>
+              <ul>
+                  <li>1 1⁄2 lbs catfish or 1 1⁄2 lbs red snapper fillets, cut up into about 4 inch pieces</li>
+                  <li>1⁄3 cup white sugar</li>
+                  <li>1⁄4 cup fish sauce (preferably Three Crabs Brand)</li>
+                  <li>4 shallots, thinly sliced</li>
+                  <li>1 tablespoon chopped fresh chili pepper</li>
+                  <li>2 slices ginger, julienned</li>
+                  <li>ground black pepper</li>
+              </ul>
+              <p>In a heavy 2-quart saucepan, cook the sugar over low to medium heat, swirling the pan constantly, until brown and caramelized.<br>
+              Remove pan from heat and stir the fish sauce into the caramel.<br>
+              It will smoke slightly.<br>
+              Return the pan to low heat and gently boil for about couple minutes while stirring until the sugar is completely dissolved.<br>
+              Stir in the shallots, chili and ginger.<br>
+              Add the fish in the caramel sauce and sprinkle with black pepper.<br>
+              Bring to a boil.<br>
+              Reduce the heat to low and cover the pan.<br>
+              Simmer for 30-45 minutes, turning the fish occasionally and carefully.<br>
+              Serve with rice.</p>
+          </div>
+      </div>
+
+      <div id="pork" class="recipe-wrapper">
+          <div class="recipe">
+              <img src="img/pork.jpg">
+              <h3>BBQ Pork Belly</h3>
+              <ul>
+                  <li>1 1⁄2 lbs catfish or 1 1⁄2 lbs red snapper fillets, cut up into about 4 inch pieces</li>
+                  <li>1⁄3 cup white sugar</li>
+                  <li>1⁄4 cup fish sauce (preferably Three Crabs Brand)</li>
+                  <li>4 shallots, thinly sliced</li>
+                  <li>1 tablespoon chopped fresh chili pepper</li>
+                  <li>2 slices ginger, julienned</li>
+                  <li>ground black pepper</li>
+              </ul>
+              <p>In a heavy 2-quart saucepan, cook the sugar over low to medium heat, swirling the pan constantly, until brown and caramelized.<br>
+              Remove pan from heat and stir the fish sauce into the caramel.<br>
+              It will smoke slightly.<br>
+              Return the pan to low heat and gently boil for about couple minutes while stirring until the sugar is completely dissolved.<br>
+              Stir in the shallots, chili and ginger.<br>
+              Add the fish in the caramel sauce and sprinkle with black pepper.<br>
+              Bring to a boil.<br>
+              Reduce the heat to low and cover the pan.<br>
+              Simmer for 30-45 minutes, turning the fish occasionally and carefully.<br>
+              Serve with rice.</p>
+          </div>
+      </div>
+
+      <div id="hofan" class="recipe-wrapper">
+          <div class="recipe">
+              <img src="img/hofan.jpg">
+              <h3>Beef Ho Fan</h3>
+              <ul>
+                  <li>1 1⁄2 lbs catfish or 1 1⁄2 lbs red snapper fillets, cut up into about 4 inch pieces</li>
+                  <li>1⁄3 cup white sugar</li>
+                  <li>1⁄4 cup fish sauce (preferably Three Crabs Brand)</li>
+                  <li>4 shallots, thinly sliced</li>
+                  <li>1 tablespoon chopped fresh chili pepper</li>
+                  <li>2 slices ginger, julienned</li>
+                  <li>ground black pepper</li>
+              </ul>
+              <p>In a heavy 2-quart saucepan, cook the sugar over low to medium heat, swirling the pan constantly, until brown and caramelized.<br>
+              Remove pan from heat and stir the fish sauce into the caramel.<br>
+              It will smoke slightly.<br>
+              Return the pan to low heat and gently boil for about couple minutes while stirring until the sugar is completely dissolved.<br>
+              Stir in the shallots, chili and ginger.<br>
+              Add the fish in the caramel sauce and sprinkle with black pepper.<br>
+              Bring to a boil.<br>
+              Reduce the heat to low and cover the pan.<br>
+              Simmer for 30-45 minutes, turning the fish occasionally and carefully.<br>
+              Serve with rice.</p>
+          </div>
+      </div>
+
+      <div id="lobster" class="recipe-wrapper">
+          <div class="recipe">
+              <img src="img/lobster.jpg">
+              <h3>Ginger Lobster</h3>
+              <ul>
+                  <li>1 1⁄2 lbs catfish or 1 1⁄2 lbs red snapper fillets, cut up into about 4 inch pieces</li>
+                  <li>1⁄3 cup white sugar</li>
+                  <li>1⁄4 cup fish sauce (preferably Three Crabs Brand)</li>
+                  <li>4 shallots, thinly sliced</li>
+                  <li>1 tablespoon chopped fresh chili pepper</li>
+                  <li>2 slices ginger, julienned</li>
+                  <li>ground black pepper</li>
+              </ul>
+              <p>In a heavy 2-quart saucepan, cook the sugar over low to medium heat, swirling the pan constantly, until brown and caramelized.<br>
+              Remove pan from heat and stir the fish sauce into the caramel.<br>
+              It will smoke slightly.<br>
+              Return the pan to low heat and gently boil for about couple minutes while stirring until the sugar is completely dissolved.<br>
+              Stir in the shallots, chili and ginger.<br>
+              Add the fish in the caramel sauce and sprinkle with black pepper.<br>
+              Bring to a boil.<br>
+              Reduce the heat to low and cover the pan.<br>
+              Simmer for 30-45 minutes, turning the fish occasionally and carefully.<br>
+              Serve with rice.</p>
+          </div>
+      </div>
+
+      <div id="dumpling" class="recipe-wrapper">
+          <div class="recipe">
+              <img src="img/dumpling.jpg">
+              <h3>Shrimp Dumplings</h3>
+              <ul>
+                  <li>1 1⁄2 lbs catfish or 1 1⁄2 lbs red snapper fillets, cut up into about 4 inch pieces</li>
+                  <li>1⁄3 cup white sugar</li>
+                  <li>1⁄4 cup fish sauce (preferably Three Crabs Brand)</li>
+                  <li>4 shallots, thinly sliced</li>
+                  <li>1 tablespoon chopped fresh chili pepper</li>
+                  <li>2 slices ginger, julienned</li>
+                  <li>ground black pepper</li>
+              </ul>
+              <p>In a heavy 2-quart saucepan, cook the sugar over low to medium heat, swirling the pan constantly, until brown and caramelized.<br>
+              Remove pan from heat and stir the fish sauce into the caramel.<br>
+              It will smoke slightly.<br>
+              Return the pan to low heat and gently boil for about couple minutes while stirring until the sugar is completely dissolved.<br>
+              Stir in the shallots, chili and ginger.<br>
+              Add the fish in the caramel sauce and sprinkle with black pepper.<br>
+              Bring to a boil.<br>
+              Reduce the heat to low and cover the pan.<br>
+              Simmer for 30-45 minutes, turning the fish occasionally and carefully.<br>
+              Serve with rice.</p>
+          </div>
+      </div>
 
 
 

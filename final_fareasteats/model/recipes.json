@@ -1,0 +1,395 @@
+{
+    "recipes": [{
+            "name": "Ca Kho To",
+            "from": "Vietnam",
+            "ingredients": [
+              "1 1⁄2 lbs catfish or 1 1⁄2 lbs red snapper fillets, cut up into about 4 inch pieces",
+              "1⁄3 cup white sugar",
+              "1⁄4 cup fish sauce (preferably Three Crabs Brand)",
+              "4 shallots, thinly sliced",
+              "1 tablespoon chopped fresh chili pepper",
+              "2 slices ginger, julienned",
+              "ground black pepper"
+            ],
+            "directions" : "In a heavy 2-quart saucepan, cook the sugar over low to medium heat, swirling the pan constantly, until brown and caramelized. Remove pan from heat and stir the fish sauce into the caramel. It will smoke slightly. Return the pan to low heat and gently boil for about couple minutes while stirring until the sugar is completely dissolved. Stir in the shallots, chili and ginger. Add the fish in the caramel sauce and sprinkle with black pepper. Bring to a boil. Reduce the heat to low and cover the pan. Simmer for 30-45 minutes, turning the fish occasionally and carefully. Serve with rice.",
+            "image": "url(../img/catfish.jpg)"
+        },
+        {
+            "name" : "Bo Luc Lac",
+            "from" : "Vietnam",
+            "ingredients": [
+              "1 1/4 pound tri-tip (bottom sirloin/culotte) steaks",
+              "1/2 teaspoon freshly cracked black pepper",
+              "1 1/2 teaspoons sugar",
+              "2 cloves garlic, minced",
+              "2 tablespoons oyster sauce",
+              "1 teaspoon fish sauce",
+              "1 tablespoon light soy sauce and 1 teaspoon dark soy sauce",
+              "1 shallot, thinly sliced (1/4 cup total)",
+              "1 1/2 teaspoon sugar",
+              "1 or 2 pinches salt",
+              "3 to 5 cracks black pepper",
+              "1 1/2 tablespoons unseasoned rice vinegar",
+              "2 tablespoons water",
+              "4 cups watercress, use only the tender leafy parts",
+              "2 tablespoon canola or peanut oil"
+            ],
+            "directions" : "Trim excess fat from the steaks and then cut each into 3/4-inch cubes. In a bowl, combine the pepper, sugar, garlic, oyster sauce, fish sauce and soy sauce. Add the beef and toss well to coat. Set aside to marinate for 20 minutes or up to 2 hours. For the dressing, put the shallot in a mesh strainer and rinse under water for about 10 seconds to reduce some of the harshness. In large mixing bowl, combine the sugar, salt, pepper, vinegar and water. Stir to dissolve the sugar. Add the shallot. Put the watercress on top but hold off on tossing. Heat the oil in a wok or large skillet over high heat. Add the beef and spread it out in one layer. Cook in batches, if necessary. Let the beef sear for about 1 minute, before shaking the wok or skillet to sear another side. Cook for another 30 seconds or so and shake. Cook the beef this way for about 4 minutes total, until nicely browned and medium rare. In between shakes, toss the watercress and transfer onto a platter or serving dish. When the beef is done, pile the beef on top of the watercress and serve immediately with lots of rice.",
+            "image": "url(../img/beef.jpg)"
+        },
+        {
+            "name" : "Cua Rang Me",
+            "from" : "Vietnam",
+            "ingredients": [
+              "6 whole fresh crabs",
+              "3 tablespoons canola oil",
+              "3 shallots, finely chopped",
+              "2 tablespoons tamarind paste",
+              "4 cloves garlic, finely minced",
+              "2 teaspoons garlic powder",
+              "2 teaspoons salt",
+              "2 kaffir lime leaves (optional), torn in half",
+              "2 teaspoons chili garlic sauce",
+              "3 tablespoons soy sauce (or fish sauce)",
+              "2 tablespoons palm sugar (or granulated sugar)",
+              "2 teaspoons fresh ginger (see tips)",
+              "1/4 cup water",
+              "1/2 cup Thai basil leaves",
+              "2 teaspoons white pepper, freshly ground",
+              "juice of 3 limes, + extra for serving"
+            ],
+            "directions" : "Clean the crabs. Using a cleaver, cut the back-fins in half and slightly crack the claws (see tips). Gather the pieces of crab in a large mixing bowl. Add the garlic powder, salt and 1 teaspoon of pepper. Toss well. Marinate for at least 15 minutes. In the same bowl containing the crab liquid, combine the kaffir lime leaves (if used), 1 teaspoon of ginger, sugar, soy sauce (or fish sauce) and tamarind paste. Slightly bruise the basil leaves and coarsely chop them. In a wok, heat the oil. Add the shallots and ginger and cook until slightly golden and fragrant. Add the garlic. As soon as the garlic is lightly browned, add the crab pieces. Jiggle the wok to make sure the crab does not stick to the bottom of the wok and is totally coated with oil. Add the tamarind mixture. Constantly toss the crab to ensure each piece is coated with the sauce. As soon as all the liquid is evaporated, add the chili garlic sauce (tướng ớt). Toss for 30 seconds and add ½ to one cup of water and about 2 tablespoons of basil leaves. Cover and cook for about 8-10 minutes, stirring often. The crab meat should be white and opaque and the liquid should be evaporated as well. Do not over-cook the crab; otherwise the meat will be dry! Un-cover and add the remaining basil leaves and the lemon juice. Toss the crab and cook for another 2-3 minutes. Adjust the seasoning. Season with more salt (if necessary) and pepper; it should balance the sour taste of the tamarind paste and the sweetness from the palm sugar and shallots. Remove and discard the kaffir lime leaves. Transfer to a large platter. Serve with little dipping bowls filled with lime juice, chili salt (or regular salt) and pepper.",
+            "image": "url(../img/crab.jpg)"
+        },
+        {
+            "name" : "Bun Thang",
+            "from" : "Vietnam",
+            "ingredients": [
+              "1 16-ounce package dried rice noodles (vermicelli), thin or medium thickness",
+              "1 2-pound chicken",
+              "1 medium yellow onion, halved",
+              "2 tablespoons dried shrimp",
+              "¼ teaspoon monosodium glutamate",
+              "1 tablespoon fish sauce (optional)",
+              "water, enough to cover the chicken (8-12 cups)",
+              "Salt, to taste",
+              "shredded chicken (from the chicken used for broth)",
+              "4 large scrambled eggs, fried thin and julienned",
+              "½ pound Vietnamese pork sausage (chả lụa), julienned",
+              "scallions, roughly chopped",
+              "cilantro, roughly chopped",
+              "Vietnamese coriander (rau răm)",
+              "red onion, thinly sliced",
+              "fried shallots (optional)",
+              "thai chiles (optional)",
+              "shrimp paste (mam tom, optional)"
+            ],
+            "directions" : "Add chicken and all broth ingredients into a pot, except the salt. Bring to a boil, then reduce to a simmer for ~15-20 minutes or until chicken is cooked through. Season to taste with salt. Discard onion. Meanwhile, prepare the eggs. Beat eggs in a bowl and add 1-2 tablespoons water to thin it out a bit. Lightly oil a pan and add just enough egg to make a thin layer, flipping about midway. Make as many as it takes to use up all the eggs, then loosely roll the egg crepes individually to cut into strips / julienne. Remove chicken from broth when it's fully cooked. Wait until cool, then shred. Cut the Vietnamese sausage to match the thickness of the chicken and eggs. Lightly fry or deep-fry thinly sliced shallots if you want to use this. Prepare rice noodles according to package instructions. Assemble your soup bowls. Add noodles, toppings, herbs, garnish, broth, a few drops of beetle extract per bowl, and serve.",
+            "image": "url(../img/bun.jpg)"
+        },
+        {
+            "name" : "Seua Rong Hai",
+            "from" : "Thailand",
+            "ingredients": [
+              "2 (about 200 g each) beef sirloin steaks",
+              "1 tablespoon oyster sauce",
+              "1/2 tablespoon sweet soy sauce",
+              "1 tablespoon soy sauce",
+              "1 teaspoon raw sugar",
+              "Isaan Dipping Sauce",
+              "2 tablespoon Tamarind puree",
+              "1 tablespoon fish sauce",
+              "1 teaspoon palm sugar",
+              "1 tablespoon chili flakes",
+              "1/2 roasted ground rice powder (roasted uncooked rice)",
+              "1 tablespoon red onion (shallot) thinly slice",
+              "1 tablespoon green onion - thinly sliced"
+            ],
+            "directions" : "Use fork poke on the beef. Mix all ingredients in the big bowl, and marinate beef for an hour. Prepare pan in high heat, and grill the beef for 4 minutes each side. Taste would be better if using chargrill, and cook slowly. Cooked outside, rare inside. Wrap the beef with the foil to rest for a while and cut, serve immediately. ISAAN DIPPING SAUCE: In a small bowl, mix together fish sauce, tamarind puree, palm sugar, roasted rice powder, and chili flakes until well combined. Add chopped shallot, green onion, and coriander leaves. Serve immediately with grilled beef.",
+            "image": "url(../img/tiger.jpg)"
+        },
+        {
+            "name" : "Kao Pad Pu",
+            "from" : "Thailand",
+            "ingredients": [
+              "6 cups cooked rice",
+              "2 eggs",
+              "1 1/2 tablespoons fish sauce",
+              "3 cloves chopped garlic",
+              "2­-3 chopped green onion",
+              "3-­5 tablespoons cooking oil",
+              "1 teaspoon ground white pepper",
+              "1 cup crab meat",
+              "NAM PLA PRIG:",
+              "2 tablespoons fish sauce",
+              "1/4 lime",
+              "1 shallots",
+              "1­-4 Thai chili pepper"
+            ],
+            "directions" : "Over medium to high heat, add 3 tablespoons of oil to a wok or a large pot. You'll need room to stir the rice around. Add chopped garlic to the oil. When the garlic begins to brown, add rice. Stir and mix the rice with the oil. Add crab meat and stir again. Make room in the middle of the wok. Add a teaspoon of oil and crack the egg into the spot. Scramble the egg to cook it. Then incorporate the egg into the rest of the fried rice. Repeat the same steps to add another egg. Add fish sauce and ground white pepper and taste. If your fried rice is too salty, add the 1 cup of left over rice. Stir and taste again. If you are happy with the taste, turn off the heat. Add the chopped green onions. In the pictures, I added a few cilantro leaves as a garnish, but it's not necessary and purely for decoration. NAM PLA PRIG: Slice chili pepper and shallot and place them in a sauce dish. Add fish sauce and lime juice. Some people omit the lime juice. But in our house, lime juice is a must. Some like garlic instead of shallot.",
+            "image": "url(../img/rice.jpg)"
+        },
+        {
+            "name" : "Pla Muek Yang",
+            "from" : "Thailand",
+            "ingredients": [
+              "10 cloves garlic, roughly chopped",
+              "6 green birds eye chiles, stemmed, seeds removed, and roughly chopped",
+              "1⁄2 cup palm sugar",
+              "5 tbsp. fish sauce",
+              "1⁄4 cup fresh lime juice",
+              "2 lb. squid tubes and tentacles, cleaned",
+              "2 tbsp. canola oil",
+              "Chopped peanuts, for garnish",
+              "Roughly chopped cilantro, for garnish"
+            ],
+            "directions" : "Combine garlic and chilies in a mortar and pestle and pound until it forms a paste; add sugar and grind until sugar has dissolved. Add fish sauce and lime juice and stir to combine. Set sauce aside. Working with one squid at a time, make 1 inch cuts on squid tubes about halfway through; season with salt and pepper. Heat a charcoal grill or set a gas grill to medium-high. (Alternatively, heat a grill pan over medium-high heat.) Brush squid with oil and, using a grill press, cook, until charred and cooked, 4-6 minutes. Transfer to a serving platter and drizzle with sauce; sprinkle with peanuts and cilantro.",
+            "image": "url(../img/squid.jpg)"
+        },
+        {
+            "name" : "Khao Soi",
+            "from" : "Thailand",
+            "ingredients": [
+              "3 to 4 cups plus 2 tablespoons vegetable oil",
+              "2 ½ tablespoons red curry paste",
+              "1 teaspoon curry powder",
+              "½ teaspoon turmeric powder",
+              "2 large brown cardamom, finely ground (optional)",
+              "3 cups coconut milk",
+              "1 (3- to 4-pound) chicken, cut into 6 pieces",
+              "1 ½ to 2 cups chicken stock or water",
+              "1 teaspoon sugar",
+              "2 tablespoons fish sauce, and more to taste",
+              "6 to 7 loosely packed cups spaghetti-size fresh Chinese egg noodles",
+              "6 dried thin red chilies",
+              "2 shallots, thinly sliced",
+              "12 to 1 cup rinsed and thinly sliced Chinese pickled mustard greens",
+              "1 lime, cut into wedges",
+              "Handful cilantro, chopped"
+            ],
+            "directions" : "Place a large, heavy-bottomed casserole over medium heat. Add 2 tablespoons of the oil, red curry paste, curry powder, turmeric and, if you choose, cardamom. Cook for a few minutes, stirring vigorously, until the curry paste is fragrant. Be careful it doesn't burn. Add 1 cup of the coconut milk and bring to a boil. Boil for a few minutes, stirring well, until red oil separates from the coconut mixture. Add 1 more cup of the coconut milk, return to a boil, and again boil until the oil separates. Add the chicken pieces, 1 cup chicken stock and remaining 1 cup coconut milk. If the mixture is very thick, add additional chicken stock or water as needed. Bring back to a boil, then reduce to a simmer. Add the sugar and fish sauce. Cover and simmer until the chicken is tender, about 45 minutes. Season to taste with fish sauce; the flavor should be salty and spicy with an aftertaste of sweetness. (It should be a bit saltier than you wish for the final dish, as the addition of other ingredients at serving time will dilute the seasoning.) Place a large saucepan over medium-high heat, and add the remaining vegetable oil. Place 1 cup of the noodles in a bowl and separate the strands. When the oil is shimmering, add the noodles a few strands at a time. Fry them, turning once, until crisp and golden. Remove from heat and set aside. Add the dried chilies to the pan and fry for a few seconds until they puff up; set aside. Bring a large pot of water to a boil. Rinse the remaining noodles in cold water, and add to the boiling water. Cook until barely tender, 2 to 3 minutes, stirring well to prevent sticking. Drain well. To serve, divide the noodles among 4 bowls, and top with chicken curry. Garnish with shallots, mustard greens, fried noodles and lime wedges. Add fried chilies to taste, for extra heat. Sprinkle with cilantro, and serve.",
+            "image": "url(../img/khao.jpg)"
+        },
+        {
+            "name" : "Hamachi Kama",
+            "from" : "Japan",
+            "ingredients": [
+              "1/2 cup ponzu",
+              "1/4 cup mirin",
+              "4 teaspoons soy sauce",
+              "2 teaspoons grated ginger",
+              "Sambal oelek (an Asian chili paste)",
+              "2 hamachi collars (about 1/2 pound each)",
+              "Vegetable oil, for brushing",
+              "One 2-inch piece daikon radish, peeled and finely grated",
+              "2 or 3 shiso leaves, chopped, optional"
+            ],
+            "directions" : "For the dipping sauce: Mix together the ponzu, mirin, soy sauce and ginger in a small bowl. Add sambal oelek to taste. Set aside half of the sauce for brushing on the fish as it grills. For the fish: Preheat a grill or grill pan to medium heat and brush with oil so the fish doesn't stick. Brush the fish on both sides with dipping sauce and grill for 20 to 25 minutes, flipping and brushing with sauce every 5 minutes. When done, the fish should be crispy and nicely charred and the flesh cooked through. The best way check for doneness is to insert the tip of a knife or a cake tester into the flesh, then pull it out and hold it to your wrist; it should feel warm. When it does, you're ready! Mix the grated daikon and shiso in a small bowl. Serve the fish with the dipping sauce and daikon mixture on the side. If you like, add some of the daikon mixture to the dipping sauce.",
+            "image": "url(../img/kama.jpg)"
+        },
+        {
+            "name" : "Tonkatsu Ramen",
+            "from" : "Japan",
+            "ingredients": [
+              "3 cups tonkotsu base (from recipe above)",
+              "1 tablespoon tahini",
+              "1 tablespoon strained braising liquid from chashu",
+              "2 cloves garlic, finely grated (not pressed)",
+              "1-2 teaspoons kosher salt (to taste)",
+              "1 teaspoon mirin",
+              "1/8 teaspoon white pepper",
+              "1 tablespoon sesame seeds coarsely ground",
+              "2 tablespoons finely minced fatback (salted pork fat)",
+              "1/2 batch homemade ramen noodles",
+              "2 teaspoons mayu (from recipe above)",
+              "sliced chashu",
+              "2 scallions finely chopped",
+              "other optional toppings include menma, woodear, egg, bean sprouts, corn, etc.."
+            ],
+            "directions" : "Heat the tonkotsu base in a sauce pan. In a bowl whisk together the tahini, chashu liquid, grated garlic, salt, mirin and white pepper. Add this to the hot broth and whisk to combine. Taste and adjust salt as needed. Bring to a simmer, then add the sesame seeds and pork fat and whisk to combine. Split the cooked noodles between two bowls. Pour the tonkotsu soup over the noodles. Top with chashu, scallions and whatever else you want to add. Finish the ramen with a drizzle of mayu on each bowl.",
+            "image": "url(../img/ramen.jpg)"
+        },
+        {
+            "name" : "Asari Miso Somen",
+            "from" : "Japan",
+            "ingredients": [
+              "4-5 dried shiitake mushrooms",
+              "1/2 teaspoon instant dashi powder",
+              "1 tablespoon white miso",
+              "1 tablespoon olive oil",
+              "1 inch piece ginger, minced",
+              "2 garlic cloves, thinly sliced",
+              "1 small shallot, minced",
+              "teensiest smidgeon of salt, to season",
+              "1/3 cup dry sake",
+              "3/4-1 pound clams",
+              "1.5-2 oz soba noodles"
+            ],
+            "directions" : "In a small bowl, soak dried mushrooms with very warm water for 15 minutes. Mushrooms should be submerged; you might have to rest another bowl atop them. Meanwhile, put a pot of water on to boil. On another burner, heat olive oil over medium heat in a pot. Cook ginger, garlic and shallots until soft and shallots translucent, about 5 minutes. Add sake and clams to pot. Cover, turn the heat up to medium-high, and steam clams until they open. Spoon clams et al. into serving bowl. When water in the other pot is boiling, cook udon according to package, about 4 minutes, then drain in colander and rinse under cool water to prevent further cooking. Add noodles to serving bowl with clams. Once you have sufficiently soaked the mushrooms, bring a cup of mushroom stock to boil in a small sauce pan. Stir in dashi powder. Remove from heat, then stir in miso until dissolved. Pour broth atop clams and noodles.",
+            "image": "url(../img/miso.jpg)"
+        },
+        {
+            "name" : "Crab Tempura",
+            "from" : "Japan",
+            "ingredients": [
+              "4 Soft shell crabs – one per person",
+              "1/2 cup plain flour",
+              "1/2 cup cornflour",
+              "1 egg, lightly beaten",
+              "1/2 tsp baking powder",
+              "1 tbs sesame seeds",
+              "COLD soda water – enough to make a thick batter (will coat your finger)"
+            ],
+            "directions" : "Clean the crabs. Use scissors to snip off the face. Lift up the shell on each side and remove the gills with your fingers. Grab the tail that is wrapped under the body, this is called the apron and tear it off. Dry on paper towel. Slice in half. It’s now ready to be cooked. Pre heat the oil in the deep fryer or wok to 180°c / 355°f. Place the flours, baking powder, egg and sesame seeds in a bowl and slowly stir in the cold soda water. Pre heat the oil in the deep fryer or wok to 180°c / 355°f. Place the flours, baking powder, egg and sesame seeds in a bowl and slowly stir in the cold soda water. Dip the cleaned soft shell crabs into the batter and then carefully place in to the deep fryer. Cook till the tempura batter turns golden and crispy, about 4-5 minutes. Serve with a couple of dipping sauces such as ponzu or sweet chili and a wedge of lemon.",
+            "image": "url(../img/tempura.jpg)"
+        },
+        {
+            "name" : "Japchae",
+            "from" : "Korea",
+            "ingredients": [
+              "4 ounces beef, filet mignon (or pork shoulder), cut into ¼ inch wide and 2½ inch long strips",
+              "2 large dried shiitake mushrooms, soaked in warm water for 2 to 3 hours, cut into thin strips",
+              "2 garlic cloves, minced",
+              "1 tablespoons plus 2 teaspoons sugar",
+              "2 tablespoons plus 1 teaspoon soy sauce",
+              "2 tablespoons sesame oil",
+              "1 tablespoon toasted sesame seeds",
+              "1 large egg",
+              "4 ounces spinach, washed and drained",
+              "4 ounces of dangmyeon (sweet potato starch noodles)",
+              "2 to 3 green onions, cut crosswise into 2 inch long pieces",
+              "1 medium onion (1 cup), sliced thinly",
+              "4 to 5 white mushrooms, sliced thinly",
+              "1 medium carrot (¾ cup), cut into matchsticks",
+              "½ red bell pepper, cut into thin strips (optional)",
+              "ground black pepper",
+              "salt",
+              "vegetable oil"
+            ],
+            "directions" : "",
+            "image": "url(../img/japchae.jpg)"
+        },
+        {
+            "name" : "Bibimbap",
+            "from" : "Korea",
+            "ingredients": [
+              "1 1⁄2 lbs catfish or 1 1⁄2 lbs red snapper fillets, cut up into about 4 inch pieces",
+              "1⁄3 cup white sugar",
+              "1⁄4 cup fish sauce (preferably Three Crabs Brand)",
+              "4 shallots, thinly sliced",
+              "1 tablespoon chopped fresh chili pepper",
+              "2 slices ginger, julienned",
+              "ground black pepper"
+            ],
+            "directions" : "",
+            "image": "url(../img/bibimbap.jpg)"
+        },
+        {
+              "name" : "Galbi",
+              "from" : "Korea",
+              "ingredients": [
+                "1 1⁄2 lbs catfish or 1 1⁄2 lbs red snapper fillets, cut up into about 4 inch pieces",
+                "1⁄3 cup white sugar",
+                "1⁄4 cup fish sauce (preferably Three Crabs Brand)",
+                "4 shallots, thinly sliced",
+                "1 tablespoon chopped fresh chili pepper",
+                "2 slices ginger, julienned",
+                "ground black pepper"
+              ],
+              "directions" : "",
+              "image": "url(../img/galbi.jpg)"
+        },
+        {
+              "name" : "Soondubu",
+              "from" : "Korea",
+              "ingredients": [
+                "1 1⁄2 lbs catfish or 1 1⁄2 lbs red snapper fillets, cut up into about 4 inch pieces",
+                "1⁄3 cup white sugar",
+                "1⁄4 cup fish sauce (preferably Three Crabs Brand)",
+                "4 shallots, thinly sliced",
+                "1 tablespoon chopped fresh chili pepper",
+                "2 slices ginger, julienned",
+                "ground black pepper"
+              ],
+              "directions" : "",
+              "image": "url(../img/soondubu.jpg)"
+        },
+        {
+              "name" : "BBQ Pork Belly",
+              "from" : "China",
+              "ingredients": [
+                "1 1⁄2 lbs catfish or 1 1⁄2 lbs red snapper fillets, cut up into about 4 inch pieces",
+                "1⁄3 cup white sugar",
+                "1⁄4 cup fish sauce (preferably Three Crabs Brand)",
+                "4 shallots, thinly sliced",
+                "1 tablespoon chopped fresh chili pepper",
+                "2 slices ginger, julienned",
+                "ground black pepper"
+              ],
+              "directions" : "",
+              "image": "url(../img/pork.jpg)"
+        },
+        {
+              "name" : "Beef Ho Fan",
+              "from" : "China",
+              "ingredients": [
+                "8 oz. flank steak",
+                "1/4 teaspoon baking soda (optional)",
+                "1 teaspoon corn starch",
+                "1 teaspoon soy sauce",
+                "1 teaspoon oil",
+                "12 oz. fresh flat rice noodles",
+                "3 tablespoons oil",
+                "4 scallions, split in half vertically and cut into 3-inch pieces",
+                "3 thin slices ginger",
+                "2 teaspoons shaoxing wine",
+                "1/2 teaspoon sesame oil",
+                "2 tablespoons dark soy sauce",
+                "2 tablespoons regular soy sauce",
+                "Pinch of sugar",
+                "salt and white pepper, to taste",
+                "4 to 6 ounces fresh mung bean sprouts"
+              ],
+              "directions" : "Combine the beef and marinade ingredients and let it marinate for about an hour. The little bit of baking soda tenderizes the meat. Some rice noodles come as large sheets, while others are already cut. If you have the sheets, slice the rice noodles so they're about 1/2-3/4 of an inch thick. Heat your wok over high heat until smoking, and add 1 1/2 tablespoons oil to coat the wok. Add the beef and sear until browned. As long as your wok is hot enough, the meat shouldn't stick. Set aside. Add a little more oil to the wok. Then add the ginger first to infuse the oil with its rich flavor for about 15 seconds. Add the scallions. Spread the noodles evenly in the wok and stir-fry the whole mix on high until it is mixed evenly, about 15 seconds. Add the shaoxing wine around the rim of the wok. Next, add the sesame oil, soy sauces, pinch of sugar, and a bit of salt and pepper to taste (taste the noodles before adding salt) along with the beef. Stir fry, making sure your spatula scrapes the bottom of the wok and you lift the ho fun in an upward motion to mix well and coat them evenly with the soy sauce. If the noodles were cold and refrigerated when you started, you may have to toss the noodles longer to heat them through properly. If the noodles are fresh, then less time will be required. Your heat should remain as high as possible at all times. Add the bean sprouts and stir-fry until the bean sprouts are just tender. Serve!",
+              "image": "url(../img/hofan.jpg)"
+        },
+        {
+              "name" : "Ginger Lobster",
+              "from" : "China",
+              "ingredients": [
+                "two 1 ¼ to 1 ½ pound live lobsters",
+                "2 tablespoons all purpose flour",
+                "1 tablespoon cornstarch",
+                "2 cups oil for flash deep frying, plus 2 tablespoons",
+                "6 slices ginger",
+                "3 scallions, cut into 2-inch pieces",
+                "2 tablespoons shaoxing wine",
+                "1 tablespoon soy sauce",
+                "1/4 teaspoon sesame oil",
+                "pinch of sugar",
+                "fresh ground white pepper"
+              ],
+              "directions" : "Clean lobster. Mix the flour and cornstarch in a shallow bowl, and lightly dredge the lobster pieces. Dredge only the exposed meat to seal in the juices. At this point, many restaurants deep fry the lobster in a large wok to quickly seal in the juices. This process only takes 20 seconds or so, but for home cooking, we'll use a smaller pot and fry in batches. This flash fry method cooks the lobster about 70% of the way through, enhances the lobster flavor, produces a rich color, and seals in the juices while preventing the tender meat from overcooking. Heat 2 cups of oil in a small pot to about 350 degrees F, and drop the lobster into the pot a couple pieces at a time for about 10 seconds. Remove to a sheet pan to drain. The shells should turn bright red almost instantly. To finish the dish, start with a clean wok over high heat. Add 2 tablespoons oil to the wok, along with the ginger. Let the ginger fry for about 30 seconds, until fragrant. Add the white portions of the scallions and the lobster. Stir fry on for 20 seconds, keeping the heat cranked up as high as it'll go. Pour the wine around the perimeter of the wok and immediately cover it. Let it cook for about 2 minutes. Uncover the wok and add the soy sauce, sesame oil, sugar, white pepper, and the rest of the scallions. Stir fry for another minute.",
+              "image": "url(../img/lobster.jpg)"
+        },
+        {
+              "name" : "Shrimp Dumplings",
+              "from" : "China",
+              "ingredients": [
+                "6 oz. peeled, deveined shrimp, chopped into 1/4″ pieces",
+                "1 tsp soy sauce",
+                "1 1/2 tsp sherry",
+                "1/2 tsp sesame oil",
+                "2 Tbsp butter @ room temperature",
+                "1 tsp white sugar",
+                "1 tsp salt",
+                "1/8 tsp white pepper",
+                "1 1/2 tsp cornstarch",
+                "3 large cloves garlic, crushed",
+                "15 green asparagus stalks, white tough base removed, chopped into 1/4″ pieces",
+                "20 dumpling wrappers, square-shaped"
+              ],
+              "directions" : "Mix all the filling ingredients together. On a work surface, lay out a dumpling wrapper. Spoon a rounded tsp of the filling into the center of the wrapper, then lightly dab the area around the filling with water. Gather the outer edges of the wrapper together and pinch the dumpling in the area just above where the filling sits, then set the dumpling aside. Repeat this process with all 20 dumplings. Use a vegetable peeler to peel out very thin ribbons of asparagus. Cut each ribbon into 3″ pieces. You want the ribbon to be soft and pliable, able to be wrapped around the pinched area on the dumplings. If the asparagus ribbons are too stiff, soak them in a small bowl of hot water for a few minutes until they are malleable and limp, blot them with a paper towel, then try to use them again. Wrap the ribbons around each dumpling to create a pouch-like look, then place them in a bamboo steamer lined with parchment. Fill a large wok or stockpot half full with water and bring to a full boil. Place bamboo steamer on top of wok or pot, then steam for 8-10 minutes while water is on full boil the entire time. Eat the pouch dumplings fresh, with plenty of soy sauce and chili oil.",
+              "image": "url(../img/dumpling.jpg)"
+        }]
+}

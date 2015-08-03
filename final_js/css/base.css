@@ -1,0 +1,79 @@
+/*
+Project Name: Blank Template
+Client: Your Client
+Author: Your Name
+Developer @GA in NYC
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+body {
+    color: #ffffff;
+    line-height: 1.4;
+    font-family: 'Droid Serif', serif;
+    position:absolute;
+	  width: 100%;
+    height:100%;
+	  margin: 0;
+    padding: 0;
+    background: #e3e2da;
+    font-size: 16px;
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+#container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+p {
+  font-size: 1em;
+}
+
+h1 {
+  font-size: 7em;
+}
+
+h2 {
+  font-size: 6em;
+}
+
+h3{
+  font-size: 3em;
+}
+
+h4{
+  font-size: 1.75em;
+}
+
+h5 {
+  font-size: 2em;
+}
+
+h6 {
+  font-size: 1em;
+}
