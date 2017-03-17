@@ -1,1 +1,3 @@
-The Fashion Blog assignment can be found in the folder titled fashion_blogpart1.
+# General Assembly - Front End Web Development Course
+
+This is a collection of projects that I've completed while attending GA's FEWD Program.
